@@ -16,4 +16,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Luego de clonar el repositorio ejecutar: 
 
 - composer install para instalar las dependencias.
-- 
+- se utilizo xampp para la bd por lo cual se debe configurar el .env con el host y las credenciales para luego ejecutar: php artisan migrate --seed
+- php artisan serve para levantar el servidor
+- ejemplo consumo de api: http://localhost:8000/api/v1/tickets/41
